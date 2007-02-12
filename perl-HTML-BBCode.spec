@@ -6,7 +6,7 @@
 %define	pdir	HTML
 %define	pnam	BBCode
 Summary:	HTML::BBCode - Perl extension for converting BBcode to HTML
-Summary(pl):	HTML::BBcode - rozszerzenie Perla do konwersji kodu BBcode na HTML
+Summary(pl.UTF-8):   HTML::BBcode - rozszerzenie Perla do konwersji kodu BBcode na HTML
 Name:		perl-HTML-BBCode
 Version:	1.05
 Release:	1
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 HTML::BBCode converts BBCode - as used on the phpBB bulletin boards -
 to it's HTML equivalent.
 
-%description -l pl
-HTML::BBCode konwertuje BBCode - uøywany w forach phpBB - na
+%description -l pl.UTF-8
+HTML::BBCode konwertuje BBCode - u≈ºywany w forach phpBB - na
 odpowiedniki HTML.
 
 %prep
