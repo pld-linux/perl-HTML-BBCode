@@ -9,7 +9,7 @@ Summary:	HTML::BBCode - Perl extension for converting BBcode to HTML
 Summary(pl.UTF-8):	HTML::BBcode - rozszerzenie Perla do konwersji kodu BBcode na HTML
 Name:		perl-HTML-BBCode
 Version:	1.05
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
