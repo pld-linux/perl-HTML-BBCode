@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	HTML
 %define	pnam	BBCode
+%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::BBCode - Perl extension for converting BBcode to HTML
 Summary(pl.UTF-8):	HTML::BBcode - rozszerzenie Perla do konwersji kodu BBcode na HTML
 Name:		perl-HTML-BBCode
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	03a3d80848402bb82bdd8fb443a718e8
+URL:		http://search.cpan.org/dist/HTML-BBCode/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
