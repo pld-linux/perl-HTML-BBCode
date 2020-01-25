@@ -4,7 +4,6 @@
 
 %define	pdir	HTML
 %define	pnam	BBCode
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::BBCode - Perl extension for converting BBcode to HTML
 Summary(pl.UTF-8):	HTML::BBcode - rozszerzenie Perla do konwersji kodu BBcode na HTML
 Name:		perl-HTML-BBCode
